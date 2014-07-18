@@ -1,0 +1,123 @@
+<head>
+<link href="app-convert.css" rel="stylesheet" type="text/css">
+<link href="bootstrap.css" rel="stylesheet" type="text/css">
+<link href="code.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/holistic.css">
+<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+	<nav class="nav-open">
+		<div id="header">
+			<a href="/" id="settings"> <i class="icon-settings"> </i> </a>
+			<div class="logo"> <img src="images/eysys.png"> </div>
+			<a href="/" id="notification"> <i class="icon-notification"> </i> </a>
+			<h3> Morning jordan </h3>
+		</div>
+	<ul>
+		<li class="dashboard">
+			<a class="active" href="/"> <i class="icon-dashboard module dashboard"> </i> <span> Dashboard </span> </a>
+		</li>
+		<li class="organise">
+			<a href="/"> <i class="icon-organise module organise"> </i> <span> Organise </span> </a>
+		</li>
+		<li class="monetise">
+			<a href="/"> <i class="icon-monetise module monetise"> </i> <span> Monetise </span> </a>
+		</li>
+		<li class="products">
+			<a href="/"> <i class="icon-products module products"> </i> <span> Products </span></a>
+		</li>
+		<li class="personalise">
+			<a href="/"> <i class="icon-personalise module personalise"> </i> <span> Personalise </span> </a>
+		</li>
+		<li class="searchendise">
+			<a href="/"> <i class="icon-search module searchendise"> </i> <span> Searchendise </span></a>
+		</li>
+		<li class="nav-controller">
+			<a id="nav-button"> <i class="icon-arrow"> </i> Close nav </a>
+		</li>
+	</ul>
+
+	</div>
+</nav>
+
+<div class="viewport dashboard-module">
+	<div class="left">
+				<div class="list">
+					<header>
+						<h2> Users </h2>
+						<div class="buttons">
+							<div class="actions">
+								<a class="btn secondary" href=""><i class="icon-search"></i> </a>
+							</div>
+						</div>
+						<div class="add-new buttons">
+							<a class="btn btn-large primary" href=""><i class="icon-add"></i> new </a>
+						</div>
+					</header>
+					<ul class="user-list">
+						<li>
+							<img class="avatar" src="images/avatar.png" width="60" height="60">
+							<div class="content">
+								<span class="username"> Jordan Amblin </span>
+								<span class="email"> jordan.amblin@eysys.com </span>
+								<div class="access">
+									<i class="icon-dashboard-rd dashboard"> </i> 
+									<i class="icon-personalise-rd personalise"> </i> </span>
+								</div>
+							</div>
+							<span class="tag"> User </span>
+						</li>
+						<li>
+							<img class="avatar" src="https://s3.amazonaws.com/uifaces/faces/twitter/gt/128.jpg" width="60" height="60">
+							<div class="content">
+								<span class="username"> Humphrey Sheil </span>
+								<span class="email"> humphrey@eysys.com </span>
+								<div class="access">
+									<i class="icon-dashboard-rd dashboard"> </i> 
+									<i class="icon-personalise-rd organise"> </i>
+									<i class="icon-dashboard-rd monetise"> </i> 
+									<i class="icon-personalise-rd products"> </i>
+									<i class="icon-dashboard-rd personalise"> </i> 
+									<i class="icon-personalise-rd searchendise"> </i> </span>
+								</div>
+							</div>
+							<span class="tag"> Admin </span>
+						</li>
+					</ul>
+				</div>
+	</div>
+
+	<div class="right">
+				<div class="list">
+					<header>
+						<h2> Add new user </h2>
+						<div class="buttons">
+							<div class="actions">
+								<a class="btn primary btn-large" href=""> Done </a>
+								<a class="btn default" href=""><i class="icon-close"></i> </a>
+							</div>
+						</div>
+					</header>
+					<ul class="form-list">
+						<label> <span> Full name </span> <input class="text error" type="text" name="fullname" /> </label>
+						<label> <span> Email </span> <input class="text" type="text" name="email" /> </label>
+						<label> <span> Add user as </span>
+							<div class="push">
+								<input type="radio" name="option"> Admin
+								<input type="radio" name="option"> User
+							</div>
+						 </label>
+						<label> <span> Module access </span>
+							<div class="push">
+								<input type="checkbox" name="dashboard"> Dashboard
+								<input type="checkbox" name="organise"> Organise
+								<input type="checkbox" name="monetise"> Monetise
+								<input type="checkbox" name="products"> Products
+								<input type="checkbox" name="personalise"> Personalise
+								<input type="checkbox" name="searchendise"> Searchendise
+						</label>
+					</ul>
+				</div>
+	</div>
+
